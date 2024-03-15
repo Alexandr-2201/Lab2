@@ -13,8 +13,8 @@ def check_brackets_balance(file_path):
 
     return len(stack) == 0
 
-file_path = 'program4.txt'  # Путь к файлу с программой
+file_path = 'program45.txt'  # Путь к файлу с программой
 if check_brackets_balance(file_path):
-    print("Скобки сбалансированы")
+    print("Круглые скобки сбалансированы.")
 else:
-    print("Скобки не сбалансированы!!!!")
+    print("Круглые скобки не сбалансированы!!!!")
