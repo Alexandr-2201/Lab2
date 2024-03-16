@@ -15,7 +15,7 @@ def hanoi_with_stacks(n, source, target, auxiliary, source_name, target_name, au
     hanoi_with_stacks(n-1, auxiliary, target, source, auxiliary_name, target_name, source_name)
 
 # Чтение информации о дисках из исходного файла
-with open('disks.txt', 'r') as file:
+with open('disks3.txt', 'r') as file:
     disks = [int(line.strip()) for line in file]
 
 # Очистить файл вывода

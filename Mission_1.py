@@ -1,7 +1,7 @@
 from collections import deque
 
 # Чтение данных из файла
-with open('books1.txt', 'r', encoding='utf-8') as file:
+with open('books11.txt', 'r', encoding='utf-8') as file:
     lines = file.readlines()
 
 # Инициализация двух деков
@@ -23,5 +23,3 @@ while deq1: # Выполняется до тех пор, пока deq1 не ст
 with open('sorted_books1.txt', 'w') as file:
     for book in deq2:
         file.write(book + '\n')
-
-print("Отсортированные строки записаны в файл 'sorted_books.txt'.")
